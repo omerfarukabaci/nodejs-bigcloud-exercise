@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-exercise",
+  "version": "1.0.0",
+  "description": "A single endpoint RESTFul API written in NodeJS with Express package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omerfarukabaci/nodejs-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omerfarukabaci/nodejs-exercise/issues"
+  },
+  "homepage": "https://github.com/omerfarukabaci/nodejs-exercise#readme",
+  "dependencies": {
+    "@google-cloud/bigquery": "^5.2.0",
+    "@hapi/joi": "^16.1.7",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
